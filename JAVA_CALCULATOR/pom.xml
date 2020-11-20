@@ -3,4 +3,16 @@
   <groupId>CICD_ASSIGNMENT_2</groupId>
   <artifactId>JAVA_CALCULATOR</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+  <distributionManagement>
+  	<snapshotRepository>
+    	<id>CICD_Assignment2</id>
+    	<name>CICD_Assignment2</name>
+    	<url>http://localhost:8081/repository/CICD_Assignment2/</url>
+  	</snapshotRepository>
+  </distributionManagement>
 </project>
+
